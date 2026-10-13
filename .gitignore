@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+# Never publish source exports, private outputs, or notebooks' derived data
+/data/
+/outputs/
+/plots/
+/figures/
+*.csv
+*.xlsx
+*.parquet
+*.db
