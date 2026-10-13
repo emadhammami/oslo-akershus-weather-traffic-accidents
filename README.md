@@ -35,6 +35,29 @@ See [experimental results](results/README.md) for the full
 model comparison, coefficient tables, feature importances,
 and 12 original figures.
 
+<!-- BEGIN FEATURED FIGURES -->
+## Selected Visualizations
+
+The following figures are from the executed Colab study of monthly personal-injury
+traffic accidents and weather conditions in Oslo and Akershus (2014–2024).
+These are observational analyses, not evidence of causal effects.
+
+### Monthly Personal-Injury Accident Trends
+
+![Monthly injury-accident counts in Oslo and Akershus, 2014–2024](figures/01_monthly_personal_injury_accidents.png)
+
+### Holdout Evaluation: Observed vs. Predicted
+
+![Observed and predicted monthly accident counts on the chronological holdout](figures/11_holdout_actual_vs_predicted.png)
+
+### Random Forest Feature Importance
+
+![Random forest predictor importance](figures/12_random_forest_feature_importance.png)
+
+[All 12 figures](figures/) · [Recorded results and provenance](results/README.md)
+
+<!-- END FEATURED FIGURES -->
+
 ## Repository contents
 
 - `notebooks/weather_traffic_analysis_colab.ipynb`: Colab notebook with saved outputs and API credentials removed for public release. It prompts for the TRINE CSV.
