@@ -1,0 +1,6 @@
+Feature,Importance
+mean_air_temperature,0.434361
+year_index,0.337882
+month_sin,0.091243
+total_precipitation,0.086655
+month_cos,0.049859

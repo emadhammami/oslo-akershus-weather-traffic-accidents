@@ -18,3 +18,10 @@ __pycache__/
 *.xlsx
 *.parquet
 *.db
+
+# Curated figures and recorded experiment results
+!/figures/
+!/results/
+!/results/*.csv
+!/results/*.json
+!/results/*.md

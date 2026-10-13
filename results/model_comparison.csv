@@ -1,0 +1,4 @@
+Model,MAE,RMSE
+Poisson Regression,10.544880,14.122437
+Negative Binomial Regression,10.421884,13.907886
+Random Forest Regressor,9.498889,11.434560

@@ -1,0 +1,7 @@
+Variable,Coefficient,IRR,p-value
+const,4.366869,78.796512,<0.001
+mean_air_temperature,0.012226,1.012301,0.071
+total_precipitation,0.000188,1.000188,0.520
+month_sin,-0.115859,0.890601,0.004
+month_cos,-0.048841,0.952333,0.402
+year_index,-0.061749,0.940119,<0.001
